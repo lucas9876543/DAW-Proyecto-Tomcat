@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Arte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre la Galería</a></li>
+                <li><a href="#exhibitions">Exhibiciones</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section home">
+        <h1>Bienvenidos a la Galería de Arte</h1>
+        <p>Explora nuestras exposiciones y descubre el arte moderno y clásico.</p>
+    </section>
+
+    <section id="about" class="section about">
+        <h2>Sobre la Galería</h2>
+        <p>La Galería de Arte es un espacio dedicado a la preservación, promoción y exhibición de obras artísticas que representan la diversidad y la riqueza de la creatividad humana a lo largo de la historia. Desde su fundación, la galería ha tenido como objetivo ofrecer un espacio de encuentro entre los artistas y el público, promoviendo el intercambio de ideas y la reflexión sobre el papel del arte en la sociedad actual.
+
+            La galería no se limita a una sola corriente artística ni a una sola época; por el contrario, se enfoca en una variedad de estilos y géneros que incluyen tanto el arte contemporáneo como el arte clásico. Desde las tradicionales pinturas al óleo hasta las esculturas modernas y las instalaciones multimedia, cada obra en la galería ha sido seleccionada con cuidado para transmitir algo único y profundo. Esta diversidad de estilos y enfoques refleja nuestra creencia en el poder del arte para trascender barreras culturales, temporales y sociales, y para invitarnos a explorar nuevas formas de ver y entender el mundo que nos rodea.
+            
+            A lo largo de los años, hemos organizado una serie de exhibiciones que destacan el trabajo de artistas emergentes y establecidos, tanto nacionales como internacionales. Cada exposición es una oportunidad para sumergirse en nuevas ideas y perspectivas, para experimentar el arte de manera más profunda y para conectar con la esencia misma de las obras presentadas. Ya sea a través de una pintura abstracta que desafía nuestras percepciones visuales, una escultura que nos invita a interactuar con el espacio o una fotografía que captura momentos fugaces de la vida cotidiana, cada pieza tiene una historia que contar.
+            
+            Además de las exposiciones temporales, la galería también organiza una variedad de eventos educativos y culturales, como charlas, talleres y visitas guiadas, con el fin de fomentar una mayor comprensión del arte y de su impacto en nuestra vida diaria. Creemos que el arte es una herramienta poderosa para el crecimiento personal y colectivo, y estamos comprometidos en hacer que el arte sea accesible a todos, independientemente de su formación o experiencia previa.
+            
+            Uno de los pilares de nuestra galería es la promoción de la inclusión y la diversidad. Reconocemos la importancia de dar visibilidad a voces y perspectivas que históricamente han sido marginadas, y trabajamos constantemente para crear un espacio que sea acogedor y representativo de la riqueza cultural y social de la comunidad. A través de nuestras exhibiciones, buscamos desafiar las normas establecidas, cuestionar las estructuras de poder y ofrecer una plataforma para aquellos cuyas historias han sido silenciadas.
+            
+            La Galería de Arte no es solo un lugar de exhibición, sino un punto de encuentro para la comunidad artística y el público en general. Nos enorgullece ser un espacio donde los artistas pueden compartir su trabajo y las personas pueden encontrar inspiración, consuelo y reflexión. Es un lugar donde las ideas se encuentran, se discuten y, en muchos casos, se transforman en nuevas formas de entendimiento.
+            
+            Nuestro compromiso con el arte es inquebrantable. Estamos convencidos de que el arte tiene la capacidad de transformar la sociedad, de inspirar cambios y de ofrecer una visión más rica y matizada de la humanidad. A través de cada exposición, cada evento y cada obra que presentamos, trabajamos para cultivar una cultura de apreciación del arte que sea inclusiva, dinámica y abierta al diálogo.
+            
+            Te invitamos a descubrir la magia del arte en nuestra galería, a explorar nuestras exposiciones y a participar en nuestras actividades. No importa cuál sea tu relación con el arte, siempre hay algo nuevo que aprender, algo nuevo que admirar y algo nuevo que sentir. Estamos aquí para ofrecerte una experiencia enriquecedora y transformadora, y esperamos que cada visita a nuestra galería sea una oportunidad para expandir tus horizontes, desafiar tus perspectivas y, sobre todo, disfrutar de la belleza y el poder del arte.</p>
+    </section>
+
+    <section id="exhibitions" class="section exhibitions">
+        <h2>Exhibiciones</h2>
+        <div class="gallery">
+            <div class="art-piece">
+                <img src="img/el-caminante-sobre-el-mar-de-nubes.jpg" alt="Obra 1">
+                <p>“El caminante sobre el mar de nubes” - Pintura acrílica sobre lienzo</p>
+            </div>
+            <div class="art-piece">
+                <img src="img/el-hijo-del-hombre-rene-magritte.jpg" alt="Obra 2">
+                <p>“El hijo del hombre” - René Magritte</p>
+            </div>
+            <div class="art-piece">
+                <img src="img/guernica.picasso.jpg" alt="Obra 3">
+                <p>“Guernica” - Picasso</p>
+            </div>
+            <div class="art-piece">
+                <img src="img/la-persistencia-de-la-memoria-de-salvador-dali.webp" alt="Obra 4">
+                <p>“La persitencia de la memoria” - Salvador Dali</p>
+            </div>
+            <div class="art-piece">
+                <img src="img/noche-estrellada.jpg" alt="Obra 4">
+                <p>“La noche estrellada” - Van Gogh</p>
+            </div>
+            <div class="art-piece">
+                <img src="img/carravagio.jpg" alt="Obra 4">
+                <p>“Santa Catalina de Alejandría” - Caravaggio</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Galería de Arte. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

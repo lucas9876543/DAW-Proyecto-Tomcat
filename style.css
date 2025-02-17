@@ -1,0 +1,145 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Estilos del header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #f4a261;
+}
+
+/* Secciones */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.home {
+    background-image: url(img/galeria.jpg);
+    background-size: cover;
+    color: white;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+.about {
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+h1, h2 {
+    color: #6e95a3;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.exhibitions .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.art-piece {
+    text-align: center;
+    width: 250px; /* Aseguramos que todas las piezas tengan el mismo ancho */
+}
+
+.art-piece img {
+    width: 250px; /* Tamaño fijo para todas las imágenes */
+    height: 250px; /* Mantener las imágenes con la misma altura */
+    object-fit: cover; /* Ajuste para que las imágenes no se deformen */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.art-piece p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+    height: 50px; /* Fijo el alto de los textos debajo de las imágenes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden; /* Asegura que los textos no se desborden si son muy largos */
+}
+
+/* Formulario */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2d3b40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f4a261;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
